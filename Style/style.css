@@ -1,0 +1,27 @@
+#mainsec{
+    background: rosybrown;
+    height: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    display: block;
+    text-align: center;
+    font-family: Acme;
+    color: whitesmoke;
+}
+#port{
+    height: 300px;
+    width: 100px;
+    margin: 15px;
+}
+.container{
+    padding-right:0;
+    padding-left:0;
+    margin-right:20px;
+    margin-left:20px;
+    background: rosybrown;
+ }
