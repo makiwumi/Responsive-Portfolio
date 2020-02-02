@@ -1,10 +1,6 @@
-#mainsec{
-    background: rosybrown;
-    height: 100%;
-}
-
 .navbar-brand{
     font-family: 'Indie Flower', cursive;
+    font-size: 50px;
 }
 
 header {
@@ -14,14 +10,24 @@ header {
     color: whitesmoke;
 }
 #port{
-    height: 300px;
-    width: 100px;
+    width: 300px;
     margin: 15px;
 }
-.container{
-    padding-right:0;
-    padding-left:0;
-    margin-right:20px;
-    margin-left:20px;
-    background: rosybrown;
- }
+
+body{
+    background-color:grey;
+}
+
+#aboutMe{
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: black;
+    text-align: center;
