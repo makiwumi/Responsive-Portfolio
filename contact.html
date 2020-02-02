@@ -38,29 +38,35 @@
   </header>
   <!--Front profile-->
    <section>
-     <div class="container">
-       <div class="row align-items-center">
-        <div class="col-sm-6 text-center">
-          <img class="rounded-circle text-center" class="img-responsive" id="port" src="./Images/IMG_2621-Edit.jpg" alt="portrait">
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="/w3images/map.jpg" style="width:100%">
         </div>
-         <div class="col-sm-6 text-center">
-            <h1><span class="badge badge-secondary">Hello!</span></h1>
-            <h2 class="aboutMeTitle">About Me</h2>
-            <p1>Im marian, im a medical lab scientist
-            </p1>
-         </div>
-       </div>
-     </div>
-   </section>
-  <!---->
-<div class="row">
-  <div class="col-sm-12">
-    <div class="row">
-      <div class="col-sm-6">hey</div>
-      <div class="col-sm-6">hey</div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+   </section>
   <!---->
 
   <!---->
